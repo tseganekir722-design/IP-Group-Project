@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Search and match with entry-level and graduate jobs.">
+  <title>Job Opportunities | CareerPath AI</title>
+</head>
+<body class="page">
+  <div class="app-layout">
+    <aside class="app-sidebar" aria-label="Student navigation">
+      <a class="sidebar-logo" href="../index.html"><img class="sidebar-logo-image" src="../assets/images/logo.png" alt="CareerPath AI logo"> <span class="sidebar-logo-text">CareerPath AI</span></a>
+      <nav class="sidebar-nav" aria-label="Dashboard sections">
+      <ul class="sidebar-links">
+        <li class="sidebar-item"><a class="sidebar-link" href="dashboard.html">Dashboard</a></li>
+        <li class="sidebar-item"><a class="sidebar-link" href="career-guidance.html">Career Guidance</a></li>
+        <li class="sidebar-item"><a class="sidebar-link sidebar-link-active" href="jobs.html" aria-current="page">Job Opportunities</a></li>
+        <li class="sidebar-item"><a class="sidebar-link" href="internships.html">Internships</a></li>
+        <li class="sidebar-item"><a class="sidebar-link" href="skill-analysis.html">Skill Gap Analysis</a></li>
+        <li class="sidebar-item"><a class="sidebar-link" href="learning-roadmap.html">Learning Roadmap</a></li>
+        <li class="sidebar-item"><a class="sidebar-link" href="applications.html">Applications</a></li>
+        <li class="sidebar-item"><a class="sidebar-link" href="profile.html">Profile</a></li>
+      </ul>
+      </nav>
+      <div class="sidebar-footer">
+        <a class="sidebar-link" href="../index.html">Back to Home</a>
+        <a class="sidebar-link sidebar-link-logout" href="login.html">Log Out</a>
+      </div>
+    </aside>
+    <div class="app-content">
+      <header class="app-topbar">
+        <h1 class="app-page-title">Job Opportunities</h1>
+        <div class="topbar-user">
+          <img class="topbar-avatar" src="../assets/images/avatar-placeholder.png" alt="Profile photo of Hana Tesfaye (sample student)">
+          <span class="topbar-user-name">Hana Tesfaye</span>
+        </div>
+      </header>
+      <main class="app-main">
+        <section class="search-section" aria-labelledby="job-search-title">
+          <h2 class="section-title" id="job-search-title">Search job opportunities</h2>
+          <form class="search-form" role="search" action="#" method="get">
+            <div class="search-bar">
+              <label class="form-label" for="job-search">Search by title, company or skill</label>
+              <input class="form-input search-input" type="search" id="job-search" name="q" placeholder="e.g. Junior Software Developer">
+              <button class="button button-primary" type="submit">Search</button>
+            </div>
+            <fieldset class="filter-panel">
+              <legend class="filter-title">Filters</legend>
+              <div class="filter-group"><label class="form-label" for="job-category">Category</label><select class="form-select" id="job-category" name="category"><option value="">All</option><option value="software-development">Software Development</option><option value="web-development">Web Development</option><option value="data-&amp;-analytics">Data &amp; Analytics</option><option value="quality-assurance">Quality Assurance</option><option value="cloud-&amp;-devops">Cloud &amp; DevOps</option><option value="design">Design</option></select></div><div class="filter-group"><label class="form-label" for="job-location">Location</label><select class="form-select" id="job-location" name="location"><option value="">All</option><option value="remote">Remote</option><option value="addis-ababa">Addis Ababa</option><option value="bahir-dar">Bahir Dar</option><option value="hawassa">Hawassa</option><option value="mekelle">Mekelle</option></select></div><div class="filter-group"><label class="form-label" for="job-experience">Experience level</label><select class="form-select" id="job-experience" name="experience"><option value="">All</option><option value="graduate">Graduate</option><option value="entry-level">Entry level</option><option value="junior">Junior</option></select></div><div class="filter-group"><label class="form-label" for="job-type">Employment type</label><select class="form-select" id="job-type" name="type"><option value="">All</option><option value="full-time">Full-time</option><option value="part-time">Part-time</option><option value="contract">Contract</option></select></div>
+              <button class="button button-secondary" type="reset">Clear Filters</button>
+            </fieldset>
+          </form>
+        </section>
+
+        <section class="results-section" aria-labelledby="rec-jobs-title">
+          <div class="results-header">
+            <h2 class="section-title" id="rec-jobs-title">Recommended jobs</h2>
+            <p class="results-count">Showing 6 of 48 matches (sample data &mdash; not real vacancies)</p>
+          </div>
+          <div class="job-grid">
+          <article class="job-card">
+            <header class="job-card-header">
+              <h3 class="job-title">Junior Software Developer</h3>
+              <p class="job-company">Nova Tech Solutions (sample)</p>
+              <p class="match-badge" aria-label="Match score 92% (sample value)">92% match</p>
+            </header>
+            <dl class="job-meta">
+              <div class="job-meta-item"><dt>Location</dt><dd>Addis Ababa (Hybrid)</dd></div>
+              <div class="job-meta-item"><dt>Salary range</dt><dd>ETB 25,000 – 35,000 / month</dd></div>
+              <div class="job-meta-item"><dt>Employment type</dt><dd>Full-time</dd></div>
+              <div class="job-meta-item"><dt>Experience level</dt><dd>Entry level</dd></div>
+            </dl>
+            <h4 class="job-skills-heading">Required skills</h4>
+            <ul class="skill-tags"><li class="skill-tag">Java</li><li class="skill-tag">Spring Boot</li><li class="skill-tag">SQL</li><li class="skill-tag">Git</li></ul>
+            <p class="job-description">Build and maintain backend services for an internal logistics platform alongside a senior mentor.</p>
+            <footer class="job-card-actions">
+              <a class="button button-secondary" href="#job-details">View Details</a>
+              <button class="button button-primary" type="button">Apply</button>
+            </footer>
+          </article>
+          <article class="job-card">
+            <header class="job-card-header">
+              <h3 class="job-title">Software Engineering Graduate Trainee</h3>
+              <p class="job-company">BlueBridge Systems (sample)</p>
+              <p class="match-badge" aria-label="Match score 88% (sample value)">88% match</p>
+            </header>
+            <dl class="job-meta">
+              <div class="job-meta-item"><dt>Location</dt><dd>Remote</dd></div>
+              <div class="job-meta-item"><dt>Salary range</dt><dd>ETB 20,000 – 28,000 / month</dd></div>
+              <div class="job-meta-item"><dt>Employment type</dt><dd>Full-time</dd></div>
+              <div class="job-meta-item"><dt>Experience level</dt><dd>Graduate</dd></div>
+            </dl>
+            <h4 class="job-skills-heading">Required skills</h4>
+            <ul class="skill-tags"><li class="skill-tag">Python</li><li class="skill-tag">Problem Solving</li><li class="skill-tag">OOP</li><li class="skill-tag">Agile</li></ul>
+            <p class="job-description">A 12-month rotational programme across QA, backend and DevOps teams for recent graduates.</p>
+            <footer class="job-card-actions">
+              <a class="button button-secondary" href="#job-details">View Details</a>
+              <button class="button button-primary" type="button">Apply</button>
+            </footer>
+          </article>
+          <article class="job-card">
+            <header class="job-card-header">
+              <h3 class="job-title">Frontend Developer</h3>
+              <p class="job-company">Pixel Harbor Studio (sample)</p>
+              <p class="match-badge" aria-label="Match score 85% (sample value)">85% match</p>
+            </header>
+            <dl class="job-meta">
+              <div class="job-meta-item"><dt>Location</dt><dd>Bahir Dar (On-site)</dd></div>
+              <div class="job-meta-item"><dt>Salary range</dt><dd>ETB 22,000 – 30,000 / month</dd></div>
+              <div class="job-meta-item"><dt>Employment type</dt><dd>Full-time</dd></div>
+              <div class="job-meta-item"><dt>Experience level</dt><dd>Entry level</dd></div>
+            </dl>
+            <h4 class="job-skills-heading">Required skills</h4>
+            <ul class="skill-tags"><li class="skill-tag">HTML</li><li class="skill-tag">CSS</li><li class="skill-tag">JavaScript</li><li class="skill-tag">React</li></ul>
+            <p class="job-description">Implement responsive user interfaces for client web products from Figma designs.</p>
+            <footer class="job-card-actions">
+              <a class="button button-secondary" href="#job-details">View Details</a>
+              <button class="button button-primary" type="button">Apply</button>
+            </footer>
+          </article>
+          <article class="job-card">
+            <header class="job-card-header">
+              <h3 class="job-title">Data Analyst</h3>
+              <p class="job-company">Insight Metrics Ltd (sample)</p>
+              <p class="match-badge" aria-label="Match score 79% (sample value)">79% match</p>
+            </header>
+            <dl class="job-meta">
+              <div class="job-meta-item"><dt>Location</dt><dd>Hawassa (Hybrid)</dd></div>
+              <div class="job-meta-item"><dt>Salary range</dt><dd>ETB 24,000 – 32,000 / month</dd></div>
+              <div class="job-meta-item"><dt>Employment type</dt><dd>Contract</dd></div>
+              <div class="job-meta-item"><dt>Experience level</dt><dd>Junior</dd></div>
+            </dl>
+            <h4 class="job-skills-heading">Required skills</h4>
+            <ul class="skill-tags"><li class="skill-tag">SQL</li><li class="skill-tag">Excel</li><li class="skill-tag">Power BI</li><li class="skill-tag">Statistics</li></ul>
+            <p class="job-description">Prepare dashboards and reports that support business decisions for retail clients.</p>
+            <footer class="job-card-actions">
+              <a class="button button-secondary" href="#job-details">View Details</a>
+              <button class="button button-primary" type="button">Apply</button>
+            </footer>
+          </article>
+          <article class="job-card">
+            <header class="job-card-header">
+              <h3 class="job-title">QA Test Engineer</h3>
+              <p class="job-company">Orbit Quality Labs (sample)</p>
+              <p class="match-badge" aria-label="Match score 74% (sample value)">74% match</p>
+            </header>
+            <dl class="job-meta">
+              <div class="job-meta-item"><dt>Location</dt><dd>Remote</dd></div>
+              <div class="job-meta-item"><dt>Salary range</dt><dd>ETB 18,000 – 26,000 / month</dd></div>
+              <div class="job-meta-item"><dt>Employment type</dt><dd>Part-time</dd></div>
+              <div class="job-meta-item"><dt>Experience level</dt><dd>Entry level</dd></div>
+            </dl>
+            <h4 class="job-skills-heading">Required skills</h4>
+            <ul class="skill-tags"><li class="skill-tag">Manual Testing</li><li class="skill-tag">Selenium</li><li class="skill-tag">Jira</li></ul>
+            <p class="job-description">Design test cases and run regression tests for mobile and web applications.</p>
+            <footer class="job-card-actions">
+              <a class="button button-secondary" href="#job-details">View Details</a>
+              <button class="button button-primary" type="button">Apply</button>
+            </footer>
+          </article>
+          <article class="job-card">
+            <header class="job-card-header">
+              <h3 class="job-title">Junior DevOps Engineer</h3>
+              <p class="job-company">CloudNest Africa (sample)</p>
+              <p class="match-badge" aria-label="Match score 70% (sample value)">70% match</p>
+            </header>
+            <dl class="job-meta">
+              <div class="job-meta-item"><dt>Location</dt><dd>Addis Ababa (On-site)</dd></div>
+              <div class="job-meta-item"><dt>Salary range</dt><dd>ETB 28,000 – 38,000 / month</dd></div>
+              <div class="job-meta-item"><dt>Employment type</dt><dd>Full-time</dd></div>
+              <div class="job-meta-item"><dt>Experience level</dt><dd>Junior</dd></div>
+            </dl>
+            <h4 class="job-skills-heading">Required skills</h4>
+            <ul class="skill-tags"><li class="skill-tag">Linux</li><li class="skill-tag">Docker</li><li class="skill-tag">CI/CD</li><li class="skill-tag">Bash</li></ul>
+            <p class="job-description">Support deployment pipelines and monitor cloud infrastructure for SaaS products.</p>
+            <footer class="job-card-actions">
+              <a class="button button-secondary" href="#job-details">View Details</a>
+              <button class="button button-primary" type="button">Apply</button>
+            </footer>
+          </article>
+          </div>
+          <nav class="pagination" aria-label="Job results pages">
+            <ul class="pagination-list">
+              <li><a class="pagination-link pagination-prev" href="#" aria-label="Previous page">Previous</a></li>
+              <li><a class="pagination-link pagination-active" href="#" aria-current="page">1</a></li>
+              <li><a class="pagination-link" href="#">2</a></li>
+              <li><a class="pagination-link" href="#">3</a></li>
+              <li><a class="pagination-link" href="#">8</a></li>
+              <li><a class="pagination-link pagination-next" href="#" aria-label="Next page">Next</a></li>
+            </ul>
+          </nav>
+        </section>
+      </main>
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <section class="footer-brand">
+        <h2 class="footer-logo">CareerPath AI</h2>
+        <p class="footer-tagline">AI-Powered Career Guidance, Job and Internship Matching System for University Students.</p>
+      </section>
+      <nav class="footer-nav" aria-label="Platform links">
+        <h3 class="footer-heading">Platform</h3>
+        <ul class="footer-links">
+          <li><a href="../pages/career-guidance.html">Career Guidance</a></li>
+          <li><a href="../pages/jobs.html">Job Opportunities</a></li>
+          <li><a href="../pages/internships.html">Internships</a></li>
+          <li><a href="../pages/skill-analysis.html">Skill Gap Analysis</a></li>
+          <li><a href="../pages/learning-roadmap.html">Learning Roadmap</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-nav" aria-label="Account links">
+        <h3 class="footer-heading">Account</h3>
+        <ul class="footer-links">
+          <li><a href="../pages/login.html">Login</a></li>
+          <li><a href="../pages/register.html">Register</a></li>
+          <li><a href="../pages/dashboard.html">Dashboard</a></li>
+          <li><a href="../pages/profile.html">Profile</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-nav" aria-label="Project links">
+        <h3 class="footer-heading">Project</h3>
+        <ul class="footer-links">
+          <li><a href="../pages/about.html">About the Project</a></li>
+          <li><a href="../index.html#features">Features</a></li>
+          <li><a href="mailto:team@example.edu">Contact the Team</a></li>
+        </ul>
+      </nav>
+    </div>
+    <p class="footer-disclaimer">All companies, students, statistics and opportunities shown are illustrative sample data for a university Software Engineering project and are not real vacancies.</p>
+    <p class="footer-copyright"><small>&copy; 2026 CareerPath AI &mdash; University Software Engineering Project.</small></p>
+  </footer>
+    </div>
+  </div>
+</body>
+</html>
