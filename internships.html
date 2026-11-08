@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Find internships matched to your field and year of study.">
+  <title>Internship Opportunities | CareerPath AI</title>
+</head>
+<body class="page">
+  <div class="app-layout">
+    <aside class="app-sidebar" aria-label="Student navigation">
+      <a class="sidebar-logo" href="../index.html"><img class="sidebar-logo-image" src="../assets/images/logo.png" alt="CareerPath AI logo"> <span class="sidebar-logo-text">CareerPath AI</span></a>
+      <nav class="sidebar-nav" aria-label="Dashboard sections">
+      <ul class="sidebar-links">
+        <li class="sidebar-item"><a class="sidebar-link" href="dashboard.html">Dashboard</a></li>
+        <li class="sidebar-item"><a class="sidebar-link" href="career-guidance.html">Career Guidance</a></li>
+        <li class="sidebar-item"><a class="sidebar-link" href="jobs.html">Job Opportunities</a></li>
+        <li class="sidebar-item"><a class="sidebar-link sidebar-link-active" href="internships.html" aria-current="page">Internships</a></li>
+        <li class="sidebar-item"><a class="sidebar-link" href="skill-analysis.html">Skill Gap Analysis</a></li>
+        <li class="sidebar-item"><a class="sidebar-link" href="learning-roadmap.html">Learning Roadmap</a></li>
+        <li class="sidebar-item"><a class="sidebar-link" href="applications.html">Applications</a></li>
+        <li class="sidebar-item"><a class="sidebar-link" href="profile.html">Profile</a></li>
+      </ul>
+      </nav>
+      <div class="sidebar-footer">
+        <a class="sidebar-link" href="../index.html">Back to Home</a>
+        <a class="sidebar-link sidebar-link-logout" href="login.html">Log Out</a>
+      </div>
+    </aside>
+    <div class="app-content">
+      <header class="app-topbar">
+        <h1 class="app-page-title">Internship Opportunities</h1>
+        <div class="topbar-user">
+          <img class="topbar-avatar" src="../assets/images/avatar-placeholder.png" alt="Profile photo of Hana Tesfaye (sample student)">
+          <span class="topbar-user-name">Hana Tesfaye</span>
+        </div>
+      </header>
+      <main class="app-main">
+        <section class="search-section" aria-labelledby="int-search-title">
+          <h2 class="section-title" id="int-search-title">Search internship opportunities</h2>
+          <form class="search-form" role="search" action="#" method="get">
+            <div class="search-bar">
+              <label class="form-label" for="int-search">Search by title, company or skill</label>
+              <input class="form-input search-input" type="search" id="int-search" name="q" placeholder="e.g. Frontend Developer Intern">
+              <button class="button button-primary" type="submit">Search</button>
+            </div>
+            <fieldset class="filter-panel">
+              <legend class="filter-title">Filters</legend>
+              <div class="filter-group"><label class="form-label" for="int-industry">Industry</label><select class="form-select" id="int-industry" name="industry"><option value="">All</option><option value="technology">Technology</option><option value="design">Design</option><option value="finance-&amp;-analytics">Finance &amp; Analytics</option><option value="artificial-intelligence">Artificial Intelligence</option><option value="healthcare">Healthcare</option><option value="telecommunications">Telecommunications</option></select></div><div class="filter-group"><label class="form-label" for="int-location">Location</label><select class="form-select" id="int-location" name="location"><option value="">All</option><option value="remote">Remote</option><option value="addis-ababa">Addis Ababa</option><option value="bahir-dar">Bahir Dar</option><option value="hawassa">Hawassa</option><option value="mekelle">Mekelle</option></select></div><div class="filter-group"><label class="form-label" for="int-duration">Duration</label><select class="form-select" id="int-duration" name="duration"><option value="">All</option><option value="1-2-months">1-2 months</option><option value="3-months">3 months</option><option value="4-6-months">4-6 months</option><option value="more-than-6-months">More than 6 months</option></select></div>
+              <button class="button button-secondary" type="reset">Clear Filters</button>
+            </fieldset>
+          </form>
+        </section>
+
+        <section class="results-section" aria-labelledby="rec-int-title">
+          <div class="results-header">
+            <h2 class="section-title" id="rec-int-title">Recommended internships</h2>
+            <p class="results-count">Showing 6 of 27 matches (sample data &mdash; not real vacancies)</p>
+          </div>
+          <div class="internship-grid">
+          <article class="internship-card">
+            <header class="internship-card-header">
+              <h3 class="internship-position">Frontend Developer Intern</h3>
+              <p class="internship-organization">Pixel Harbor Studio (sample)</p>
+              <p class="match-badge" aria-label="Match score 94% (sample value)">94% match</p>
+            </header>
+            <dl class="internship-meta">
+              <div class="internship-meta-item"><dt>Industry</dt><dd>Technology</dd></div>
+              <div class="internship-meta-item"><dt>Location</dt><dd>Bahir Dar (On-site)</dd></div>
+              <div class="internship-meta-item"><dt>Duration</dt><dd>3 months</dd></div>
+              <div class="internship-meta-item"><dt>Application deadline</dt><dd><time>December 15, 2026</time></dd></div>
+            </dl>
+            <h4 class="internship-skills-heading">Required skills</h4>
+            <ul class="skill-tags"><li class="skill-tag">HTML</li><li class="skill-tag">CSS</li><li class="skill-tag">JavaScript</li></ul>
+            <p class="internship-eligibility"><strong>Eligibility:</strong> 3rd or 4th year Software Engineering or Computer Science students</p>
+            <footer class="internship-card-actions">
+              <a class="button button-secondary" href="#internship-details">View Details</a>
+              <button class="button button-primary" type="button">Apply</button>
+            </footer>
+          </article>
+          <article class="internship-card">
+            <header class="internship-card-header">
+              <h3 class="internship-position">UI/UX Design Intern</h3>
+              <p class="internship-organization">Canvas Lab Design (sample)</p>
+              <p class="match-badge" aria-label="Match score 89% (sample value)">89% match</p>
+            </header>
+            <dl class="internship-meta">
+              <div class="internship-meta-item"><dt>Industry</dt><dd>Design</dd></div>
+              <div class="internship-meta-item"><dt>Location</dt><dd>Remote</dd></div>
+              <div class="internship-meta-item"><dt>Duration</dt><dd>4 months</dd></div>
+              <div class="internship-meta-item"><dt>Application deadline</dt><dd><time>December 20, 2026</time></dd></div>
+            </dl>
+            <h4 class="internship-skills-heading">Required skills</h4>
+            <ul class="skill-tags"><li class="skill-tag">Figma</li><li class="skill-tag">Wireframing</li><li class="skill-tag">User Research</li></ul>
+            <p class="internship-eligibility"><strong>Eligibility:</strong> Students in Software Engineering, IT or Design with a portfolio</p>
+            <footer class="internship-card-actions">
+              <a class="button button-secondary" href="#internship-details">View Details</a>
+              <button class="button button-primary" type="button">Apply</button>
+            </footer>
+          </article>
+          <article class="internship-card">
+            <header class="internship-card-header">
+              <h3 class="internship-position">Data Analyst Intern</h3>
+              <p class="internship-organization">Insight Metrics Ltd (sample)</p>
+              <p class="match-badge" aria-label="Match score 83% (sample value)">83% match</p>
+            </header>
+            <dl class="internship-meta">
+              <div class="internship-meta-item"><dt>Industry</dt><dd>Finance & Analytics</dd></div>
+              <div class="internship-meta-item"><dt>Location</dt><dd>Hawassa (Hybrid)</dd></div>
+              <div class="internship-meta-item"><dt>Duration</dt><dd>6 months</dd></div>
+              <div class="internship-meta-item"><dt>Application deadline</dt><dd><time>January 5, 2027</time></dd></div>
+            </dl>
+            <h4 class="internship-skills-heading">Required skills</h4>
+            <ul class="skill-tags"><li class="skill-tag">Excel</li><li class="skill-tag">SQL</li><li class="skill-tag">Python basics</li></ul>
+            <p class="internship-eligibility"><strong>Eligibility:</strong> Students in Statistics, Economics, Computer Science or related fields</p>
+            <footer class="internship-card-actions">
+              <a class="button button-secondary" href="#internship-details">View Details</a>
+              <button class="button button-primary" type="button">Apply</button>
+            </footer>
+          </article>
+          <article class="internship-card">
+            <header class="internship-card-header">
+              <h3 class="internship-position">AI/ML Intern</h3>
+              <p class="internship-organization">NeuralWorks Research (sample)</p>
+              <p class="match-badge" aria-label="Match score 81% (sample value)">81% match</p>
+            </header>
+            <dl class="internship-meta">
+              <div class="internship-meta-item"><dt>Industry</dt><dd>Artificial Intelligence</dd></div>
+              <div class="internship-meta-item"><dt>Location</dt><dd>Addis Ababa (Hybrid)</dd></div>
+              <div class="internship-meta-item"><dt>Duration</dt><dd>6 months</dd></div>
+              <div class="internship-meta-item"><dt>Application deadline</dt><dd><time>January 10, 2027</time></dd></div>
+            </dl>
+            <h4 class="internship-skills-heading">Required skills</h4>
+            <ul class="skill-tags"><li class="skill-tag">Python</li><li class="skill-tag">NumPy</li><li class="skill-tag">Machine Learning basics</li></ul>
+            <p class="internship-eligibility"><strong>Eligibility:</strong> 4th or 5th year students with coursework in AI or Data Science</p>
+            <footer class="internship-card-actions">
+              <a class="button button-secondary" href="#internship-details">View Details</a>
+              <button class="button button-primary" type="button">Apply</button>
+            </footer>
+          </article>
+          <article class="internship-card">
+            <header class="internship-card-header">
+              <h3 class="internship-position">Backend Developer Intern</h3>
+              <p class="internship-organization">Nova Tech Solutions (sample)</p>
+              <p class="match-badge" aria-label="Match score 77% (sample value)">77% match</p>
+            </header>
+            <dl class="internship-meta">
+              <div class="internship-meta-item"><dt>Industry</dt><dd>Technology</dd></div>
+              <div class="internship-meta-item"><dt>Location</dt><dd>Remote</dd></div>
+              <div class="internship-meta-item"><dt>Duration</dt><dd>3 months</dd></div>
+              <div class="internship-meta-item"><dt>Application deadline</dt><dd><time>January 18, 2027</time></dd></div>
+            </dl>
+            <h4 class="internship-skills-heading">Required skills</h4>
+            <ul class="skill-tags"><li class="skill-tag">Node.js</li><li class="skill-tag">REST APIs</li><li class="skill-tag">SQL</li></ul>
+            <p class="internship-eligibility"><strong>Eligibility:</strong> Students who have completed a Database Systems course</p>
+            <footer class="internship-card-actions">
+              <a class="button button-secondary" href="#internship-details">View Details</a>
+              <button class="button button-primary" type="button">Apply</button>
+            </footer>
+          </article>
+          <article class="internship-card">
+            <header class="internship-card-header">
+              <h3 class="internship-position">IT Support Intern</h3>
+              <p class="internship-organization">Unity Health Network (sample)</p>
+              <p class="match-badge" aria-label="Match score 68% (sample value)">68% match</p>
+            </header>
+            <dl class="internship-meta">
+              <div class="internship-meta-item"><dt>Industry</dt><dd>Healthcare</dd></div>
+              <div class="internship-meta-item"><dt>Location</dt><dd>Mekelle (On-site)</dd></div>
+              <div class="internship-meta-item"><dt>Duration</dt><dd>2 months</dd></div>
+              <div class="internship-meta-item"><dt>Application deadline</dt><dd><time>February 1, 2027</time></dd></div>
+            </dl>
+            <h4 class="internship-skills-heading">Required skills</h4>
+            <ul class="skill-tags"><li class="skill-tag">Networking</li><li class="skill-tag">Troubleshooting</li><li class="skill-tag">Communication</li></ul>
+            <p class="internship-eligibility"><strong>Eligibility:</strong> Students in IT, Computer Engineering or Information Systems</p>
+            <footer class="internship-card-actions">
+              <a class="button button-secondary" href="#internship-details">View Details</a>
+              <button class="button button-primary" type="button">Apply</button>
+            </footer>
+          </article>
+          </div>
+          <nav class="pagination" aria-label="Internship results pages">
+            <ul class="pagination-list">
+              <li><a class="pagination-link pagination-prev" href="#" aria-label="Previous page">Previous</a></li>
+              <li><a class="pagination-link pagination-active" href="#" aria-current="page">1</a></li>
+              <li><a class="pagination-link" href="#">2</a></li>
+              <li><a class="pagination-link" href="#">3</a></li>
+              <li><a class="pagination-link pagination-next" href="#" aria-label="Next page">Next</a></li>
+            </ul>
+          </nav>
+        </section>
+      </main>
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <section class="footer-brand">
+        <h2 class="footer-logo">CareerPath AI</h2>
+        <p class="footer-tagline">AI-Powered Career Guidance, Job and Internship Matching System for University Students.</p>
+      </section>
+      <nav class="footer-nav" aria-label="Platform links">
+        <h3 class="footer-heading">Platform</h3>
+        <ul class="footer-links">
+          <li><a href="../pages/career-guidance.html">Career Guidance</a></li>
+          <li><a href="../pages/jobs.html">Job Opportunities</a></li>
+          <li><a href="../pages/internships.html">Internships</a></li>
+          <li><a href="../pages/skill-analysis.html">Skill Gap Analysis</a></li>
+          <li><a href="../pages/learning-roadmap.html">Learning Roadmap</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-nav" aria-label="Account links">
+        <h3 class="footer-heading">Account</h3>
+        <ul class="footer-links">
+          <li><a href="../pages/login.html">Login</a></li>
+          <li><a href="../pages/register.html">Register</a></li>
+          <li><a href="../pages/dashboard.html">Dashboard</a></li>
+          <li><a href="../pages/profile.html">Profile</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-nav" aria-label="Project links">
+        <h3 class="footer-heading">Project</h3>
+        <ul class="footer-links">
+          <li><a href="../pages/about.html">About the Project</a></li>
+          <li><a href="../index.html#features">Features</a></li>
+          <li><a href="mailto:team@example.edu">Contact the Team</a></li>
+        </ul>
+      </nav>
+    </div>
+    <p class="footer-disclaimer">All companies, students, statistics and opportunities shown are illustrative sample data for a university Software Engineering project and are not real vacancies.</p>
+    <p class="footer-copyright"><small>&copy; 2026 CareerPath AI &mdash; University Software Engineering Project.</small></p>
+  </footer>
+    </div>
+  </div>
+</body>
+</html>
