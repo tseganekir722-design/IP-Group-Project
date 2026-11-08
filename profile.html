@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="View and edit your student profile.">
+  <title>Student Profile | CareerPath AI</title>
+</head>
+<body class="page">
+  <div class="app-layout">
+    <aside class="app-sidebar" aria-label="Student navigation">
+      <a class="sidebar-logo" href="../index.html"><img class="sidebar-logo-image" src="../assets/images/logo.png" alt="CareerPath AI logo"> <span class="sidebar-logo-text">CareerPath AI</span></a>
+      <nav class="sidebar-nav" aria-label="Dashboard sections">
+      <ul class="sidebar-links">
+        <li class="sidebar-item"><a class="sidebar-link" href="dashboard.html">Dashboard</a></li>
+        <li class="sidebar-item"><a class="sidebar-link" href="career-guidance.html">Career Guidance</a></li>
+        <li class="sidebar-item"><a class="sidebar-link" href="jobs.html">Job Opportunities</a></li>
+        <li class="sidebar-item"><a class="sidebar-link" href="internships.html">Internships</a></li>
+        <li class="sidebar-item"><a class="sidebar-link" href="skill-analysis.html">Skill Gap Analysis</a></li>
+        <li class="sidebar-item"><a class="sidebar-link" href="learning-roadmap.html">Learning Roadmap</a></li>
+        <li class="sidebar-item"><a class="sidebar-link" href="applications.html">Applications</a></li>
+        <li class="sidebar-item"><a class="sidebar-link sidebar-link-active" href="profile.html" aria-current="page">Profile</a></li>
+      </ul>
+      </nav>
+      <div class="sidebar-footer">
+        <a class="sidebar-link" href="../index.html">Back to Home</a>
+        <a class="sidebar-link sidebar-link-logout" href="login.html">Log Out</a>
+      </div>
+    </aside>
+    <div class="app-content">
+      <header class="app-topbar">
+        <h1 class="app-page-title">Student Profile</h1>
+        <div class="topbar-user">
+          <img class="topbar-avatar" src="../assets/images/avatar-placeholder.png" alt="Profile photo of Hana Tesfaye (sample student)">
+          <span class="topbar-user-name">Hana Tesfaye</span>
+        </div>
+      </header>
+      <main class="app-main">
+        <section class="profile-header" aria-labelledby="profile-name">
+          <figure class="profile-photo-wrapper">
+            <img class="profile-photo" src="../assets/images/avatar-placeholder.png" alt="Profile photo placeholder for Hana Tesfaye">
+            <figcaption class="profile-photo-caption">Profile photo</figcaption>
+          </figure>
+          <div class="profile-header-info">
+            <h2 class="profile-name" id="profile-name">Hana Tesfaye</h2>
+            <p class="profile-university">Addis Ababa University &mdash; Department of Software Engineering</p>
+            <p class="profile-year">4th Year &middot; Expected graduation: 2027</p>
+            <p class="profile-email"><a href="mailto:hana.tesfaye@example.edu">hana.tesfaye@example.edu</a></p>
+          </div>
+        </section>
+
+        <section class="profile-section education" aria-labelledby="education-title">
+          <h2 class="section-title" id="education-title">Education history</h2>
+          <ol class="education-list">
+            <li class="education-item"><h3 class="education-degree">BSc in Software Engineering</h3><p class="education-institution">Addis Ababa University</p><p class="education-period">2022 &ndash; 2027 (expected) &middot; CGPA 3.62</p></li>
+            <li class="education-item"><h3 class="education-degree">Ethiopian Secondary School Certificate</h3><p class="education-institution">Sample Preparatory School</p><p class="education-period">2020 &ndash; 2022</p></li>
+          </ol>
+        </section>
+
+        <section class="profile-section technical-skills" aria-labelledby="tech-title">
+          <h2 class="section-title" id="tech-title">Technical skills</h2>
+          <ul class="skill-tags"><li class="skill-tag">HTML</li><li class="skill-tag">CSS</li><li class="skill-tag">JavaScript</li><li class="skill-tag">React (basic)</li><li class="skill-tag">Java</li><li class="skill-tag">SQL</li><li class="skill-tag">Git &amp; GitHub</li><li class="skill-tag">Figma</li></ul>
+        </section>
+
+        <section class="profile-section soft-skills" aria-labelledby="soft-title">
+          <h2 class="section-title" id="soft-title">Soft skills</h2>
+          <ul class="skill-tags"><li class="skill-tag">Communication</li><li class="skill-tag">Teamwork</li><li class="skill-tag">Problem Solving</li><li class="skill-tag">Time Management</li><li class="skill-tag">Presentation</li></ul>
+        </section>
+
+        <section class="profile-section certifications" aria-labelledby="cert-title">
+          <h2 class="section-title" id="cert-title">Certifications</h2>
+          <ul class="certification-list">
+            <li class="certification-item"><h3 class="certification-name">Responsive Web Design Certificate</h3><p class="certification-issuer">Online learning platform (sample) &middot; 2025</p></li>
+            <li class="certification-item"><h3 class="certification-name">Introduction to Data Analysis</h3><p class="certification-issuer">University short course (sample) &middot; 2026</p></li>
+          </ul>
+        </section>
+
+        <section class="profile-section projects" aria-labelledby="projects-title">
+          <h2 class="section-title" id="projects-title">Projects and experience</h2>
+          <article class="project-card"><h3 class="project-title">Campus Library Management System</h3><p class="project-meta">Course project &middot; 2025</p><p class="project-description">Designed and built a web-based system for book borrowing and returns using Java and MySQL in a team of four.</p></article>
+          <article class="project-card"><h3 class="project-title">Personal Portfolio Website</h3><p class="project-meta">Personal project &middot; 2026</p><p class="project-description">Built a responsive portfolio site showcasing university projects using HTML, CSS and JavaScript.</p></article>
+          <article class="project-card"><h3 class="project-title">Student Volunteer, Tech Club</h3><p class="project-meta">Experience &middot; 2024 &ndash; present</p><p class="project-description">Organized coding workshops for first-year students.</p></article>
+        </section>
+
+        <section class="profile-section interests-goals" aria-labelledby="interests-title">
+          <h2 class="section-title" id="interests-title">Career interests and goals</h2>
+          <h3 class="subsection-title">Career interests</h3>
+          <ul class="skill-tags"><li class="skill-tag">Web Development</li><li class="skill-tag">UI/UX Design</li><li class="skill-tag">Data Analytics</li></ul>
+          <h3 class="subsection-title">Career goals</h3>
+          <p class="career-goal-text">Become a frontend developer at a product-focused technology company within one year of graduation, and grow into a senior engineer specializing in accessible user interfaces.</p>
+        </section>
+
+        <section class="profile-section edit-profile" id="edit-profile" aria-labelledby="edit-title">
+          <h2 class="section-title" id="edit-title">Edit profile</h2>
+          <form class="edit-profile-form" action="#" method="post">
+            <fieldset class="form-section">
+              <legend class="form-section-title">Personal information</legend>
+              <div class="form-group"><label class="form-label" for="ep-photo">Profile photo</label><input class="form-input" type="file" id="ep-photo" name="photo" accept="image/*"></div>
+              <div class="form-group"><label class="form-label" for="ep-name">Full name</label><input class="form-input" type="text" id="ep-name" name="fullName" value="Hana Tesfaye" autocomplete="name"></div>
+              <div class="form-group"><label class="form-label" for="ep-email">Email address</label><input class="form-input" type="email" id="ep-email" name="email" value="hana.tesfaye@example.edu" autocomplete="email"></div>
+            </fieldset>
+            <fieldset class="form-section">
+              <legend class="form-section-title">Academic information</legend>
+              <div class="form-group"><label class="form-label" for="ep-university">University</label><input class="form-input" type="text" id="ep-university" name="university" value="Addis Ababa University"></div>
+              <div class="form-group"><label class="form-label" for="ep-department">Department</label><input class="form-input" type="text" id="ep-department" name="department" value="Software Engineering"></div>
+              <div class="form-row">
+                <div class="form-group"><label class="form-label" for="ep-year">Academic year</label><select class="form-select" id="ep-year" name="academicYear"><option value="1st-year">1st Year</option><option value="2nd-year">2nd Year</option><option value="3rd-year">3rd Year</option><option value="4th-year" selected>4th Year</option><option value="5th-year">5th Year</option><option value="graduate">Graduate</option></select></div>
+                <div class="form-group"><label class="form-label" for="ep-grad">Expected graduation year</label><input class="form-input" type="number" id="ep-grad" name="graduationYear" value="2027" min="2026" max="2032"></div>
+              </div>
+            </fieldset>
+            <fieldset class="form-section">
+              <legend class="form-section-title">Skills, certifications and experience</legend>
+              <div class="form-group"><label class="form-label" for="ep-tech">Technical skills</label><textarea class="form-textarea" id="ep-tech" name="technicalSkills" rows="2">HTML, CSS, JavaScript, React (basic), Java, SQL, Git &amp; GitHub, Figma</textarea></div>
+              <div class="form-group"><label class="form-label" for="ep-soft">Soft skills</label><textarea class="form-textarea" id="ep-soft" name="softSkills" rows="2">Communication, Teamwork, Problem Solving, Time Management, Presentation</textarea></div>
+              <div class="form-group"><label class="form-label" for="ep-certs">Certifications</label><textarea class="form-textarea" id="ep-certs" name="certifications" rows="2">Responsive Web Design Certificate; Introduction to Data Analysis</textarea></div>
+              <div class="form-group"><label class="form-label" for="ep-projects">Projects and experience</label><textarea class="form-textarea" id="ep-projects" name="projects" rows="3">Campus Library Management System; Personal Portfolio Website; Student Volunteer, Tech Club</textarea></div>
+            </fieldset>
+            <fieldset class="form-section">
+              <legend class="form-section-title">Career interests and goals</legend>
+              <div class="form-group"><label class="form-label" for="ep-interests">Career interests</label><input class="form-input" type="text" id="ep-interests" name="interests" value="Web Development, UI/UX Design, Data Analytics"></div>
+              <div class="form-group"><label class="form-label" for="ep-goals">Career goals</label><textarea class="form-textarea" id="ep-goals" name="goals" rows="3">Become a frontend developer at a product-focused technology company within one year of graduation.</textarea></div>
+            </fieldset>
+            <div class="form-actions">
+              <button class="button button-primary" type="submit">Save Changes</button>
+              <button class="button button-secondary" type="reset">Cancel</button>
+            </div>
+          </form>
+        </section>
+      </main>
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <section class="footer-brand">
+        <h2 class="footer-logo">CareerPath AI</h2>
+        <p class="footer-tagline">AI-Powered Career Guidance, Job and Internship Matching System for University Students.</p>
+      </section>
+      <nav class="footer-nav" aria-label="Platform links">
+        <h3 class="footer-heading">Platform</h3>
+        <ul class="footer-links">
+          <li><a href="../pages/career-guidance.html">Career Guidance</a></li>
+          <li><a href="../pages/jobs.html">Job Opportunities</a></li>
+          <li><a href="../pages/internships.html">Internships</a></li>
+          <li><a href="../pages/skill-analysis.html">Skill Gap Analysis</a></li>
+          <li><a href="../pages/learning-roadmap.html">Learning Roadmap</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-nav" aria-label="Account links">
+        <h3 class="footer-heading">Account</h3>
+        <ul class="footer-links">
+          <li><a href="../pages/login.html">Login</a></li>
+          <li><a href="../pages/register.html">Register</a></li>
+          <li><a href="../pages/dashboard.html">Dashboard</a></li>
+          <li><a href="../pages/profile.html">Profile</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-nav" aria-label="Project links">
+        <h3 class="footer-heading">Project</h3>
+        <ul class="footer-links">
+          <li><a href="../pages/about.html">About the Project</a></li>
+          <li><a href="../index.html#features">Features</a></li>
+          <li><a href="mailto:team@example.edu">Contact the Team</a></li>
+        </ul>
+      </nav>
+    </div>
+    <p class="footer-disclaimer">All companies, students, statistics and opportunities shown are illustrative sample data for a university Software Engineering project and are not real vacancies.</p>
+    <p class="footer-copyright"><small>&copy; 2026 CareerPath AI &mdash; University Software Engineering Project.</small></p>
+  </footer>
+    </div>
+  </div>
+</body>
+</html>
