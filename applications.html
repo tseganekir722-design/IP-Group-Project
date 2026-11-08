@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Track the status of your job and internship applications.">
+  <title>Application Tracking | CareerPath AI</title>
+</head>
+<body class="page">
+  <div class="app-layout">
+    <aside class="app-sidebar" aria-label="Student navigation">
+      <a class="sidebar-logo" href="../index.html"><img class="sidebar-logo-image" src="../assets/images/logo.png" alt="CareerPath AI logo"> <span class="sidebar-logo-text">CareerPath AI</span></a>
+      <nav class="sidebar-nav" aria-label="Dashboard sections">
+      <ul class="sidebar-links">
+        <li class="sidebar-item"><a class="sidebar-link" href="dashboard.html">Dashboard</a></li>
+        <li class="sidebar-item"><a class="sidebar-link" href="career-guidance.html">Career Guidance</a></li>
+        <li class="sidebar-item"><a class="sidebar-link" href="jobs.html">Job Opportunities</a></li>
+        <li class="sidebar-item"><a class="sidebar-link" href="internships.html">Internships</a></li>
+        <li class="sidebar-item"><a class="sidebar-link" href="skill-analysis.html">Skill Gap Analysis</a></li>
+        <li class="sidebar-item"><a class="sidebar-link" href="learning-roadmap.html">Learning Roadmap</a></li>
+        <li class="sidebar-item"><a class="sidebar-link sidebar-link-active" href="applications.html" aria-current="page">Applications</a></li>
+        <li class="sidebar-item"><a class="sidebar-link" href="profile.html">Profile</a></li>
+      </ul>
+      </nav>
+      <div class="sidebar-footer">
+        <a class="sidebar-link" href="../index.html">Back to Home</a>
+        <a class="sidebar-link sidebar-link-logout" href="login.html">Log Out</a>
+      </div>
+    </aside>
+    <div class="app-content">
+      <header class="app-topbar">
+        <h1 class="app-page-title">Application Tracking</h1>
+        <div class="topbar-user">
+          <img class="topbar-avatar" src="../assets/images/avatar-placeholder.png" alt="Profile photo of Hana Tesfaye (sample student)">
+          <span class="topbar-user-name">Hana Tesfaye</span>
+        </div>
+      </header>
+      <main class="app-main">
+        <section class="application-stats" aria-labelledby="app-stats-title">
+          <h2 class="section-title" id="app-stats-title">Application statistics</h2>
+          <p class="section-note">Sample application records.</p>
+          <dl class="stats-grid">
+            <div class="stat-card"><dt class="stat-label">Total applications</dt><dd class="stat-value">7</dd></div>
+            <div class="stat-card stat-pending"><dt class="stat-label">Pending applications</dt><dd class="stat-value">2</dd></div>
+            <div class="stat-card stat-interview"><dt class="stat-label">Interview invitations</dt><dd class="stat-value">2</dd></div>
+            <div class="stat-card stat-success"><dt class="stat-label">Accepted applications</dt><dd class="stat-value">1</dd></div>
+            <div class="stat-card stat-danger"><dt class="stat-label">Rejected applications</dt><dd class="stat-value">2</dd></div>
+          </dl>
+        </section>
+
+        <section class="application-tracking" aria-labelledby="tracking-table-title">
+          <h2 class="section-title" id="tracking-table-title">Application tracking</h2>
+          <form class="table-filter-form" action="#" method="get">
+            <label class="form-label" for="status-filter">Filter by status</label>
+            <select class="form-select" id="status-filter" name="status"><option value="">All statuses</option><option value="pending">Pending</option><option value="interview">Interview</option><option value="accepted">Accepted</option><option value="rejected">Rejected</option></select>
+            <label class="form-label" for="type-filter">Filter by type</label>
+            <select class="form-select" id="type-filter" name="type"><option value="">All types</option><option value="job">Job</option><option value="internship">Internship</option></select>
+            <button class="button button-secondary" type="submit">Apply Filter</button>
+          </form>
+          <table class="data-table application-table">
+            <caption class="table-caption">Your job and internship applications</caption>
+            <thead><tr><th scope="col">Job or internship title</th><th scope="col">Type</th><th scope="col">Company name</th><th scope="col">Application date</th><th scope="col">Application status</th><th scope="col">Actions</th></tr></thead>
+            <tbody><tr class="application-row"><th scope="row">Frontend Developer Intern</th><td>Internship</td><td>Pixel Harbor Studio (sample)</td><td><time datetime="2026-10-20">Oct 20, 2026</time></td><td><span class="status-badge status-interview">Interview</span></td><td><a class="table-link" href="#application-details">View Details</a></td></tr><tr class="application-row"><th scope="row">UI/UX Design Intern</th><td>Internship</td><td>Canvas Lab Design (sample)</td><td><time datetime="2026-11-02">Nov 2, 2026</time></td><td><span class="status-badge status-pending">Pending</span></td><td><a class="table-link" href="#application-details">View Details</a></td></tr><tr class="application-row"><th scope="row">Junior Software Developer</th><td>Job</td><td>Nova Tech Solutions (sample)</td><td><time datetime="2026-10-15">Oct 15, 2026</time></td><td><span class="status-badge status-pending">Pending</span></td><td><a class="table-link" href="#application-details">View Details</a></td></tr><tr class="application-row"><th scope="row">Data Analyst Intern</th><td>Internship</td><td>Insight Metrics Ltd (sample)</td><td><time datetime="2026-09-28">Sep 28, 2026</time></td><td><span class="status-badge status-accepted">Accepted</span></td><td><a class="table-link" href="#application-details">View Details</a></td></tr><tr class="application-row"><th scope="row">Software Engineering Graduate Trainee</th><td>Job</td><td>BlueBridge Systems (sample)</td><td><time datetime="2026-09-10">Sep 10, 2026</time></td><td><span class="status-badge status-rejected">Rejected</span></td><td><a class="table-link" href="#application-details">View Details</a></td></tr><tr class="application-row"><th scope="row">AI/ML Intern</th><td>Internship</td><td>NeuralWorks Research (sample)</td><td><time datetime="2026-10-05">Oct 5, 2026</time></td><td><span class="status-badge status-interview">Interview</span></td><td><a class="table-link" href="#application-details">View Details</a></td></tr><tr class="application-row"><th scope="row">QA Test Engineer</th><td>Job</td><td>Orbit Quality Labs (sample)</td><td><time datetime="2026-08-30">Aug 30, 2026</time></td><td><span class="status-badge status-rejected">Rejected</span></td><td><a class="table-link" href="#application-details">View Details</a></td></tr></tbody>
+          </table>
+        </section>
+
+        <section class="application-history" aria-labelledby="history-title">
+          <h2 class="section-title" id="history-title">Application history</h2>
+          <ol class="history-timeline">
+            <li class="history-item"><time class="history-date" datetime="2026-11-05">Nov 5, 2026</time> <p class="history-text">Interview scheduled for <strong>Frontend Developer Intern</strong> at Pixel Harbor Studio (sample) on Nov 12, 2026.</p></li>
+            <li class="history-item"><time class="history-date" datetime="2026-11-02">Nov 2, 2026</time> <p class="history-text">Submitted application for <strong>UI/UX Design Intern</strong> at Canvas Lab Design (sample).</p></li>
+            <li class="history-item"><time class="history-date" datetime="2026-10-25">Oct 25, 2026</time> <p class="history-text">Interview invitation received for <strong>AI/ML Intern</strong> at NeuralWorks Research (sample).</p></li>
+            <li class="history-item"><time class="history-date" datetime="2026-10-12">Oct 12, 2026</time> <p class="history-text">Offer accepted for <strong>Data Analyst Intern</strong> at Insight Metrics Ltd (sample).</p></li>
+            <li class="history-item"><time class="history-date" datetime="2026-09-30">Sep 30, 2026</time> <p class="history-text">Application for <strong>Software Engineering Graduate Trainee</strong> was not successful.</p></li>
+          </ol>
+        </section>
+
+        <section class="application-cta" aria-labelledby="app-cta-title">
+          <h2 class="section-title" id="app-cta-title">Looking for more opportunities?</h2>
+          <a class="button button-primary" href="jobs.html">Browse Jobs</a>
+          <a class="button button-secondary" href="internships.html">Browse Internships</a>
+        </section>
+      </main>
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <section class="footer-brand">
+        <h2 class="footer-logo">CareerPath AI</h2>
+        <p class="footer-tagline">AI-Powered Career Guidance, Job and Internship Matching System for University Students.</p>
+      </section>
+      <nav class="footer-nav" aria-label="Platform links">
+        <h3 class="footer-heading">Platform</h3>
+        <ul class="footer-links">
+          <li><a href="../pages/career-guidance.html">Career Guidance</a></li>
+          <li><a href="../pages/jobs.html">Job Opportunities</a></li>
+          <li><a href="../pages/internships.html">Internships</a></li>
+          <li><a href="../pages/skill-analysis.html">Skill Gap Analysis</a></li>
+          <li><a href="../pages/learning-roadmap.html">Learning Roadmap</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-nav" aria-label="Account links">
+        <h3 class="footer-heading">Account</h3>
+        <ul class="footer-links">
+          <li><a href="../pages/login.html">Login</a></li>
+          <li><a href="../pages/register.html">Register</a></li>
+          <li><a href="../pages/dashboard.html">Dashboard</a></li>
+          <li><a href="../pages/profile.html">Profile</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-nav" aria-label="Project links">
+        <h3 class="footer-heading">Project</h3>
+        <ul class="footer-links">
+          <li><a href="../pages/about.html">About the Project</a></li>
+          <li><a href="../index.html#features">Features</a></li>
+          <li><a href="mailto:team@example.edu">Contact the Team</a></li>
+        </ul>
+      </nav>
+    </div>
+    <p class="footer-disclaimer">All companies, students, statistics and opportunities shown are illustrative sample data for a university Software Engineering project and are not real vacancies.</p>
+    <p class="footer-copyright"><small>&copy; 2026 CareerPath AI &mdash; University Software Engineering Project.</small></p>
+  </footer>
+    </div>
+  </div>
+</body>
+</html>
